@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Visualization</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" style="color:#078A9F">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href='max-temp.html'>Max Temperature</a>
+                    <a class="dropdown-item" href='humidity.html'>Humidity</a>
+                    <a class="dropdown-item" href='cloudiness.html'>Cloudiness</a>
+                    <a class="dropdown-item" href='windspeed.html'>Windspeed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compare.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="col-lg-5 col-md-12">
+        <h1 style="color:#078A9F">Humidity</h1>
+        <br>
+        <a href="humidity.html">
+            <img style="padding-bottom: 5%; padding-right: 5%; float: center" width="500" height="400" src="Resources/assets/images/Fig2.png" class="img-responsive" alt="Latitude vs. Humidity">
+            </a>
+        <br>
+        <p>Even though the corelation between latitude and humidity is weak, the humidity tends to decrease in some area, such as from -20&deg to 0&deg latitude and from 40&deg to 60&deg latitude.</p>
+        <br>
+      </div>
+      </div>
+
+      <hr />
+
+      <div class="container">
+        <h1 style="color:#078A9F">Visualizations</h1>
+        <br>
+        <div class="row">
+            <div class="column">
+              <a href="max-temp.html">
+                <img width="300" height="200" src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature", title="Latitude vs. Max Temperature" class="imageNav-photo">
+              </a>
+            </div>
+            <div class="column">
+              <a href="humidity.html">
+                <img style="border:5px solid teal" width="300" height="200" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
+              </a>
+              </div>
+            <div class="column">
+              <a href="cloudiness.html">
+                <img width="300" height="200" src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo">
+              </a>
+            </div>
+            <div class="column">
+              <a href="windspeed.html">
+                <img width="300" height="200" src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed", title="Latitude vs. Wind Speed", class="imageNav-photo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    
+</body>
+</html>
